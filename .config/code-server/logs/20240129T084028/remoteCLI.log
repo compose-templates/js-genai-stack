@@ -1,0 +1,7 @@
+2024-01-29 08:40:29.274 [info] Getting Manifest... gitpod.gitpod-theme
+2024-01-29 08:40:29.748 [info] Installing extension: gitpod.gitpod-theme
+2024-01-29 08:40:31.207 [info] Extension signature verification is not done: gitpod.gitpod-theme
+2024-01-29 08:40:31.249 [info] Extracted extension to file:///workspace/.config/code-server/extensions/gitpod.gitpod-theme-0.0.2-universal: gitpod.gitpod-theme
+2024-01-29 08:40:31.250 [info] Renamed to /workspace/.config/code-server/extensions/gitpod.gitpod-theme-0.0.2-universal
+2024-01-29 08:40:31.252 [info] Extracting extension completed. gitpod.gitpod-theme
+2024-01-29 08:40:31.254 [info] Extension installed successfully: gitpod.gitpod-theme

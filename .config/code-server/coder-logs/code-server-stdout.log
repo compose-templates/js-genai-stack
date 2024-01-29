@@ -1,0 +1,36 @@
+[2024-01-29T08:39:58.137Z] info  code-server 4.20.0 d0215eca8804d0be5d3551c39404e336032c3141
+[2024-01-29T08:39:58.138Z] info  Using user-data-dir /workspace/.config/code-server
+[2024-01-29T08:39:58.145Z] info  Using config file /home/bob/.config/code-server/config.yaml
+[2024-01-29T08:39:58.145Z] info  HTTP server listening on http://0.0.0.0:4999/
+[2024-01-29T08:39:58.145Z] info    - Authentication is disabled
+[2024-01-29T08:39:58.145Z] info    - Not serving HTTPS
+[2024-01-29T08:39:58.145Z] info  Session server listening on /workspace/.config/code-server/code-server-ipc.sock
+[08:41:03] 
+
+
+
+
+[08:41:03] Extension host agent started.
+[08:41:04] [192.168.65.1][e5973a2c][ManagementConnection] New connection established.
+[08:41:04] [192.168.65.1][5d4cb716][ExtensionHostConnection] New connection established.
+[08:41:05] [192.168.65.1][5d4cb716][ExtensionHostConnection] <63> Launched Extension Host Process.
+[08:42:59] [192.168.65.1][e5973a2c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:42:59] [192.168.65.1][5d4cb716][ExtensionHostConnection] <63> Extension Host Process exited with code: 0, signal: null.
+[2024-01-29T08:44:40.997Z] info  code-server 4.20.1 e76afa4a2bf4667a3c9f71bf56ef34b8ad365fbe
+[2024-01-29T08:44:40.997Z] info  Using user-data-dir /workspace/.config/code-server
+[2024-01-29T08:44:41.011Z] info  Using config file /home/bob/.config/code-server/config.yaml
+[2024-01-29T08:44:41.011Z] info  HTTP server listening on http://0.0.0.0:4999/
+[2024-01-29T08:44:41.011Z] info    - Authentication is disabled
+[2024-01-29T08:44:41.011Z] info    - Not serving HTTPS
+[2024-01-29T08:44:41.011Z] info  Session server listening on /workspace/.config/code-server/code-server-ipc.sock
+[08:46:10] 
+
+
+
+
+[08:46:10] Extension host agent started.
+[08:46:11] [192.168.65.1][cb5592d5][ManagementConnection] New connection established.
+[08:46:12] [192.168.65.1][f6c7a1f1][ExtensionHostConnection] New connection established.
+[08:46:12] [192.168.65.1][f6c7a1f1][ExtensionHostConnection] <63> Launched Extension Host Process.
+[08:59:48] [192.168.65.1][cb5592d5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:59:48] [192.168.65.1][f6c7a1f1][ExtensionHostConnection] <63> Extension Host Process exited with code: 0, signal: null.

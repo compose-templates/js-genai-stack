@@ -1,0 +1,7 @@
+2024-01-29 08:40:26.144 [info] Getting Manifest... huytd.github-light-monochrome
+2024-01-29 08:40:26.640 [info] Installing extension: huytd.github-light-monochrome
+2024-01-29 08:40:27.928 [info] Extension signature verification is not done: huytd.github-light-monochrome
+2024-01-29 08:40:27.990 [info] Extracted extension to file:///workspace/.config/code-server/extensions/huytd.github-light-monochrome-0.1.0-universal: huytd.github-light-monochrome
+2024-01-29 08:40:27.993 [info] Renamed to /workspace/.config/code-server/extensions/huytd.github-light-monochrome-0.1.0-universal
+2024-01-29 08:40:27.994 [info] Extracting extension completed. huytd.github-light-monochrome
+2024-01-29 08:40:27.998 [info] Extension installed successfully: huytd.github-light-monochrome

@@ -1,0 +1,7 @@
+2024-01-29 08:40:36.174 [info] Getting Manifest... marp-team.marp-vscode
+2024-01-29 08:40:36.701 [info] Installing extension: marp-team.marp-vscode
+2024-01-29 08:40:39.085 [info] Extension signature verification is not done: marp-team.marp-vscode
+2024-01-29 08:40:49.608 [info] Extracted extension to file:///workspace/.config/code-server/extensions/marp-team.marp-vscode-2.8.0-universal: marp-team.marp-vscode
+2024-01-29 08:40:49.611 [info] Renamed to /workspace/.config/code-server/extensions/marp-team.marp-vscode-2.8.0-universal
+2024-01-29 08:40:49.613 [info] Extracting extension completed. marp-team.marp-vscode
+2024-01-29 08:40:49.616 [info] Extension installed successfully: marp-team.marp-vscode

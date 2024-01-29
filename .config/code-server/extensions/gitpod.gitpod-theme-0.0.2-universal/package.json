@@ -1,0 +1,61 @@
+{
+	"name": "gitpod-theme",
+	"displayName": "Gitpod Theme",
+	"description": "Gitpod Theme for VS Code",
+	"publisher": "gitpod",
+	"version": "0.0.2",
+	"license": "MIT",
+	"icon": "resources/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gitpod-io/gitpod-vscode-theme"
+	},
+	"bugs": {
+		"url": "https://github.com/gitpod-io/gitpod/issues"
+	},
+	"engines": {
+		"vscode": "^1.62.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"dark",
+		"light",
+		"gitpod"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"id": "Gitpod Dark",
+				"label": "Gitpod Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/gitpod-dark-color-theme.json"
+			},
+			{
+				"id": "Gitpod Light",
+				"label": "Gitpod Light",
+				"uiTheme": "vs",
+				"path": "./themes/gitpod-light-color-theme.json"
+			}
+		]
+	},
+	"scripts": {
+		"package": "vsce package --yarn"
+	},
+	"devDependencies": {
+		"ovsx": "^0.3.0",
+		"vsce": "^2.7.0"
+	},
+	"__metadata": {
+		"id": "985c019b-4620-45a7-92c5-b721d8c11bc0",
+		"publisherId": "b14dd147-c094-42f1-a071-67378bf792a3",
+		"publisherDisplayName": "gitpod",
+		"targetPlatform": "universal",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1706517629902,
+		"preRelease": false
+	}
+}

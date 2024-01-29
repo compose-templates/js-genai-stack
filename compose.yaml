@@ -1,0 +1,40 @@
+# Simplism IDE
+services:
+  ollama-ide:
+    container_name: ollama-ide
+    # http
+    entrypoint: ["code-server", "--auth", "none", "--host", "0.0.0.0", "--port", "${CODER_HTTP_PORT}", "/workspace"]
+    environment: &env
+      - CODER_HTTP_PORT=${CODER_HTTP_PORT}
+      - XDG_DATA_HOME=/workspace/.config
+    build: &build        
+      args:
+        - GO_ARCH=${GO_ARCH}
+        - GO_VERSION=${GO_VERSION}
+        - NODE_DISTRO=${NODE_DISTRO}
+        - NODE_VERSION=${NODE_VERSION} 
+        - CODER_VERSION=${CODER_VERSION}
+        - CODER_ARCH=${CODER_ARCH}
+        - USER_NAME=bob
+      context: ./.docker
+      dockerfile: Dockerfile
+    platform: linux/${LINUX_ARCH}
+    volumes: &volumes
+      - .:/workspace
+      - ~/.gitconfig:/etc/gitconfig
+      - type: bind
+        source: /var/run/docker.sock
+        target: /var/run/docker.sock
+    ports:
+      - ${CODER_HTTP_PORT}:${CODER_HTTP_PORT} # Code Server HTTP port
+
+  ollama-ide-tasks:
+    depends_on:
+      - ollama-ide
+    container_name: ollama-ide-tasks
+    entrypoint: ["/workspace/.tasks/init.sh"]
+    environment: *env
+    build: *build       
+    platform: linux/${LINUX_ARCH}
+    volumes: *volumes
+
