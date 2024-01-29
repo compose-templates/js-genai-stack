@@ -1,7 +1,0 @@
-2024-01-29 08:40:32.525 [info] Getting Manifest... pomdtr.excalidraw-editor
-2024-01-29 08:40:33.000 [info] Installing extension: pomdtr.excalidraw-editor
-2024-01-29 08:40:34.530 [info] Extension signature verification is not done: pomdtr.excalidraw-editor
-2024-01-29 08:40:34.832 [info] Extracted extension to file:///workspace/.config/code-server/extensions/pomdtr.excalidraw-editor-3.7.1-universal: pomdtr.excalidraw-editor
-2024-01-29 08:40:34.840 [info] Renamed to /workspace/.config/code-server/extensions/pomdtr.excalidraw-editor-3.7.1-universal
-2024-01-29 08:40:34.842 [info] Extracting extension completed. pomdtr.excalidraw-editor
-2024-01-29 08:40:34.844 [info] Extension installed successfully: pomdtr.excalidraw-editor
